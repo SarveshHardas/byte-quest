@@ -748,9 +748,6 @@ export default function ByteQuestPage() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Panel 1 */}
             <div className="relative border-4 border-black bg-gradient-to-br from-purple-300 to-pink-300 p-8 shadow-[8px_8px_0_0_rgba(0,0,0,1)]">
-              <div className="absolute -top-3 -left-3 bg-black text-white px-3 py-1 font-black text-sm border-2 border-white">
-                PANEL 01
-              </div>
               {/* Thought Bubble */}
               <div className="relative bg-white border-3 border-black rounded-[40px] p-6 mb-4">
                 <p className="font-bold text-lg">Semester chal raha tha...</p>
@@ -768,9 +765,6 @@ export default function ByteQuestPage() {
 
             {/* Panel 2 */}
             <div className="relative border-4 border-black bg-gradient-to-br from-blue-300 to-teal-300 p-8 shadow-[8px_8px_0_0_rgba(0,0,0,1)]">
-              <div className="absolute -top-3 -left-3 bg-black text-white px-3 py-1 font-black text-sm border-2 border-white">
-                PANEL 02
-              </div>
               {/* Speech Bubble */}
               <div className="relative bg-white border-3 border-black rounded-2xl p-6 mb-4">
                 <p className="font-bold text-lg">
@@ -786,9 +780,6 @@ export default function ByteQuestPage() {
 
             {/* Panel 3 */}
             <div className="relative border-4 border-black bg-gradient-to-br from-yellow-300 to-orange-300 p-8 shadow-[8px_8px_0_0_rgba(0,0,0,1)] overflow-hidden">
-              <div className="absolute -top-3 -left-3 bg-black text-white px-3 py-1 font-black text-sm border-2 border-white z-10">
-                PANEL 03
-              </div>
               {/* Dramatic Speed Lines */}
               {[...Array(15)].map((_, i) => (
                 <div
